@@ -2,7 +2,7 @@ version: '3'
 
 services:
   localstack:
-    image: docker.io/localstack/localstack@sha256:f21f1fc770ee4bfd5012afdc902154c56b7fb18c14cf672de151b65569c8251e
+    image: docker.io/localstack/localstack@sha256:727f7b0bd31fd25ab8863b841eb777bd2009d49b2f1030b82778ef5b27160b3e
     environment:
     - SERVICES=elasticsearch:4571
   elasticsearch:
